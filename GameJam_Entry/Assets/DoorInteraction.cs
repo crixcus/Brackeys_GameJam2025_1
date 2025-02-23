@@ -14,7 +14,6 @@ public class DoorInteraction : MonoBehaviour
     void Start()
     {
       
-
         radialFillChallenge.enabled = false; // Initially disable the skill check.
     }
 

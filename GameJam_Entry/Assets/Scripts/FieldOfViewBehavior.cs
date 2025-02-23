@@ -19,7 +19,7 @@ public class FieldOfViewBehavior : MonoBehaviour
         fov = 50f;
         origin = Vector3.zero;
 
-        GetComponent<MeshRenderer>().material.color = Color.yellow;
+        //GetComponent<MeshRenderer>().material.color = Color.white;
     }
 
     private void LateUpdate()
@@ -27,7 +27,7 @@ public class FieldOfViewBehavior : MonoBehaviour
         int rayCount = 30;
         float angle = startingAngle;
         float angleIncrease = fov / rayCount;
-        float vDistance = 30f;
+        float vDistance = 10f;
 
         Vector3[] vertices = new Vector3[rayCount + 1 + 1];
         Vector2[] uv = new Vector2[vertices.Length];
