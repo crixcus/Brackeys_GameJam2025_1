@@ -237,7 +237,7 @@ GameObject:
   - component: {fileID: 47780057}
   - component: {fileID: 47780056}
   - component: {fileID: 47780055}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: wall2 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -365,7 +365,7 @@ GameObject:
   - component: {fileID: 113953702}
   - component: {fileID: 113953701}
   - component: {fileID: 113953700}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: wall2 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -493,7 +493,7 @@ GameObject:
   - component: {fileID: 248050535}
   - component: {fileID: 248050534}
   - component: {fileID: 248050533}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: wall2 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -778,7 +778,7 @@ GameObject:
   - component: {fileID: 323123139}
   - component: {fileID: 323123138}
   - component: {fileID: 323123137}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: wall2 (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -906,7 +906,7 @@ GameObject:
   - component: {fileID: 334206780}
   - component: {fileID: 334206779}
   - component: {fileID: 334206778}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: bookshelves2 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1118,7 +1118,7 @@ GameObject:
   - component: {fileID: 403749733}
   - component: {fileID: 403749732}
   - component: {fileID: 403749731}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: bookshelves2 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1246,7 +1246,7 @@ GameObject:
   - component: {fileID: 466280118}
   - component: {fileID: 466280117}
   - component: {fileID: 466280116}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: wall2 (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1374,7 +1374,7 @@ GameObject:
   - component: {fileID: 478817766}
   - component: {fileID: 478817765}
   - component: {fileID: 478817764}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: wall2 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1502,7 +1502,7 @@ GameObject:
   - component: {fileID: 517617609}
   - component: {fileID: 517617608}
   - component: {fileID: 517617607}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: wall2 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1630,7 +1630,7 @@ GameObject:
   - component: {fileID: 518287696}
   - component: {fileID: 518287695}
   - component: {fileID: 518287694}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: bookshelves2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1856,7 +1856,7 @@ GameObject:
   - component: {fileID: 549806258}
   - component: {fileID: 549806257}
   - component: {fileID: 549806256}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: wall2 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1986,7 +1986,7 @@ GameObject:
   - component: {fileID: 588044920}
   - component: {fileID: 588044923}
   - component: {fileID: 588044922}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: angel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2145,7 +2145,7 @@ GameObject:
   - component: {fileID: 597762150}
   - component: {fileID: 597762149}
   - component: {fileID: 597762148}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: bookshelves2 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2273,7 +2273,7 @@ GameObject:
   - component: {fileID: 666172526}
   - component: {fileID: 666172525}
   - component: {fileID: 666172524}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: wall2 (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2401,7 +2401,7 @@ GameObject:
   - component: {fileID: 669347588}
   - component: {fileID: 669347587}
   - component: {fileID: 669347586}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: wall2 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2529,7 +2529,7 @@ GameObject:
   - component: {fileID: 695651399}
   - component: {fileID: 695651398}
   - component: {fileID: 695651397}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: wall2 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2657,7 +2657,7 @@ GameObject:
   - component: {fileID: 756275148}
   - component: {fileID: 756275147}
   - component: {fileID: 756275146}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: wall2 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2861,7 +2861,7 @@ GameObject:
   - component: {fileID: 798499081}
   - component: {fileID: 798499080}
   - component: {fileID: 798499079}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: wall2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2989,7 +2989,7 @@ GameObject:
   - component: {fileID: 815840550}
   - component: {fileID: 815840549}
   - component: {fileID: 815840548}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: wall2 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3370,7 +3370,7 @@ GameObject:
   - component: {fileID: 903149387}
   - component: {fileID: 903149386}
   - component: {fileID: 903149385}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: wall2 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3548,12 +3548,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c3284d429808abd47a9f720357e2dbb4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 4.84, y: 4.84}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -3566,15 +3566,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1027327501}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 1.3, y: -17.9, z: 0}
-  m_LocalScale: {x: 2.1633482, y: 2.1633482, z: 2.1633482}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.05, y: -15.12, z: 0}
+  m_LocalScale: {x: 1.2837524, y: 1.2837524, z: 1.2837524}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 383782059}
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1027327504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3602,7 +3602,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 0.0001
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -3622,9 +3622,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.011274182, y: -0.13529041}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 1.0073392
 --- !u!114 &1027327507
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3650,7 +3650,7 @@ GameObject:
   - component: {fileID: 1092220541}
   - component: {fileID: 1092220540}
   - component: {fileID: 1092220539}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: bookshelves2 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3778,7 +3778,7 @@ GameObject:
   - component: {fileID: 1127667480}
   - component: {fileID: 1127667479}
   - component: {fileID: 1127667478}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: bookshelves2 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3906,7 +3906,7 @@ GameObject:
   - component: {fileID: 1303550850}
   - component: {fileID: 1303550849}
   - component: {fileID: 1303550848}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: bookshelves2 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4127,7 +4127,7 @@ GameObject:
   - component: {fileID: 1330586215}
   - component: {fileID: 1330586214}
   - component: {fileID: 1330586213}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: wall2 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4255,7 +4255,7 @@ GameObject:
   - component: {fileID: 1338680605}
   - component: {fileID: 1338680604}
   - component: {fileID: 1338680603}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: wall2 (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4383,7 +4383,7 @@ GameObject:
   - component: {fileID: 1348815073}
   - component: {fileID: 1348815072}
   - component: {fileID: 1348815071}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: wall2 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4517,7 +4517,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!23 &1352904305
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4582,7 +4582,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   layerM:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 72
 --- !u!224 &1352904310
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4591,7 +4591,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1352904304}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.15118754}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4600,7 +4600,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.2, y: -13.2}
+  m_AnchoredPosition: {x: 0, y: 0.3}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1468106485
@@ -4615,7 +4615,7 @@ GameObject:
   - component: {fileID: 1468106489}
   - component: {fileID: 1468106488}
   - component: {fileID: 1468106487}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: wall2 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4743,7 +4743,7 @@ GameObject:
   - component: {fileID: 1468900611}
   - component: {fileID: 1468900610}
   - component: {fileID: 1468900609}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: bookshelves2 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4871,7 +4871,7 @@ GameObject:
   - component: {fileID: 1471481604}
   - component: {fileID: 1471481603}
   - component: {fileID: 1471481602}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: wall2 (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4999,7 +4999,7 @@ GameObject:
   - component: {fileID: 1504263057}
   - component: {fileID: 1504263056}
   - component: {fileID: 1504263055}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: bookshelves2 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5127,7 +5127,7 @@ GameObject:
   - component: {fileID: 1552978352}
   - component: {fileID: 1552978351}
   - component: {fileID: 1552978350}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: wall2 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5255,7 +5255,7 @@ GameObject:
   - component: {fileID: 1574413338}
   - component: {fileID: 1574413337}
   - component: {fileID: 1574413336}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: bookshelves2 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5603,7 +5603,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1719997122
 Transform:
   m_ObjectHideFlags: 0
@@ -5699,7 +5699,7 @@ GameObject:
   - component: {fileID: 1741113619}
   - component: {fileID: 1741113618}
   - component: {fileID: 1741113617}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: bookshelves2 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5827,7 +5827,7 @@ GameObject:
   - component: {fileID: 1779897282}
   - component: {fileID: 1779897281}
   - component: {fileID: 1779897280}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: wall2 (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5955,7 +5955,7 @@ GameObject:
   - component: {fileID: 1794561102}
   - component: {fileID: 1794561101}
   - component: {fileID: 1794561100}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: wall2 (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6083,7 +6083,7 @@ GameObject:
   - component: {fileID: 1801884289}
   - component: {fileID: 1801884288}
   - component: {fileID: 1801884287}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: wall2 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6211,7 +6211,7 @@ GameObject:
   - component: {fileID: 1808610289}
   - component: {fileID: 1808610288}
   - component: {fileID: 1808610287}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: wall2 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6339,7 +6339,7 @@ GameObject:
   - component: {fileID: 1815142466}
   - component: {fileID: 1815142465}
   - component: {fileID: 1815142464}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: wall2 (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6467,7 +6467,7 @@ GameObject:
   - component: {fileID: 1827083880}
   - component: {fileID: 1827083879}
   - component: {fileID: 1827083878}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: wall2 (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6595,7 +6595,7 @@ GameObject:
   - component: {fileID: 1844383652}
   - component: {fileID: 1844383651}
   - component: {fileID: 1844383650}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: bookshelves2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6791,7 +6791,7 @@ GameObject:
   - component: {fileID: 1886356171}
   - component: {fileID: 1886356170}
   - component: {fileID: 1886356169}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: wall2 (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6919,7 +6919,7 @@ GameObject:
   - component: {fileID: 1888546025}
   - component: {fileID: 1888546024}
   - component: {fileID: 1888546023}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: wall2 (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7047,7 +7047,7 @@ GameObject:
   - component: {fileID: 1947861066}
   - component: {fileID: 1947861065}
   - component: {fileID: 1947861064}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: wall2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7175,7 +7175,7 @@ GameObject:
   - component: {fileID: 2013303799}
   - component: {fileID: 2013303798}
   - component: {fileID: 2013303797}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: wall2 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7303,7 +7303,7 @@ GameObject:
   - component: {fileID: 2033295136}
   - component: {fileID: 2033295135}
   - component: {fileID: 2033295134}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: wall2 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7509,7 +7509,7 @@ GameObject:
   - component: {fileID: 2056338729}
   - component: {fileID: 2056338728}
   - component: {fileID: 2056338727}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: bookshelves2 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7637,7 +7637,7 @@ GameObject:
   - component: {fileID: 2077437090}
   - component: {fileID: 2077437089}
   - component: {fileID: 2077437088}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: wall2 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7765,7 +7765,7 @@ GameObject:
   - component: {fileID: 2106924109}
   - component: {fileID: 2106924108}
   - component: {fileID: 2106924107}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: bookshelves2 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

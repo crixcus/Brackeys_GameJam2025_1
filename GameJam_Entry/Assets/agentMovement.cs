@@ -7,12 +7,15 @@ public class agentMovement : MonoBehaviour
     [SerializeField] float chaseRange = 10f;
 
     NavMeshAgent agent;
+    private float originalSpeed;
+    
 
     private void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
+        originalSpeed = agent.speed;
     }
 
     private void Update()
@@ -29,5 +32,15 @@ public class agentMovement : MonoBehaviour
 
             agent.SetDestination(transform.position);
         }
+    }
+
+    public void StopAgent()
+    {
+        agent.speed = 0;
+    }
+
+    public void ResumeAgent()
+    {
+        agent.speed = originalSpeed;
     }
 }

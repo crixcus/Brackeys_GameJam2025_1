@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using CodeMonkey.Utils;
 
 public class PlayerAim : MonoBehaviour
 {
@@ -8,15 +9,15 @@ public class PlayerAim : MonoBehaviour
 
     private void Start()
     {
-        if (fov == null)
-        {
-            fov = GetComponent<FieldOfViewBehavior>();
-        }
+        //if (fov == null)
+        //{
+        //    fov = GetComponent<FieldOfViewBehavior>();
+        //}
     }
     void Update()
     {
         // Get mouse position in world space
-        Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector3 mousePosition = UtilsClass.GetMouseWorldPosition();
         mousePosition.z = transform.position.z; // Ensure z-axis stays consistent
 
         // Calculate direction from player to mouse
@@ -26,10 +27,13 @@ public class PlayerAim : MonoBehaviour
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0f, 0f, angle);
 
-        if(fov != null)
-        {
-            fov.SetAimDirection(direction);
-            fov.SetOrigin(transform.position);
-        }
+        fov.SetAimDirection(direction);
+        fov.SetOrigin(transform.position);
+        //if (fov != null)
+        //{
+        //    Vector3 fovOrigin = transform.position + transform.right * 1.5f;
+        //    fov.SetAimDirection(direction);
+        //    fov.SetOrigin(transform.position, direction);
+        //}
     }
 }
