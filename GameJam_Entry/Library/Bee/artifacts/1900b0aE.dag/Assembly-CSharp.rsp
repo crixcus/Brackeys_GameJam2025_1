@@ -110,7 +110,6 @@
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:ENABLE_BURST_AOT
 -define:UNITY_TEAM_LICENSE
--define:UNITY_PRO_LICENSE
 -define:ENABLE_CUSTOM_RENDER_TEXTURE
 -define:ENABLE_DIRECTOR
 -define:ENABLE_LOCALIZATION
@@ -324,13 +323,13 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
--r:"C:/Users/Bryan Azanes/Documents/GitHub/Brackeys_GameJam/GameJam_Entry/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
--r:"C:/Users/Bryan Azanes/Documents/GitHub/Brackeys_GameJam/GameJam_Entry/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll"
--r:"C:/Users/Bryan Azanes/Documents/GitHub/Brackeys_GameJam/GameJam_Entry/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
--r:"C:/Users/Bryan Azanes/Documents/GitHub/Brackeys_GameJam/GameJam_Entry/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll"
--r:"C:/Users/Bryan Azanes/Documents/GitHub/Brackeys_GameJam/GameJam_Entry/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.Unsafe.dll"
--r:"C:/Users/Bryan Azanes/Documents/GitHub/Brackeys_GameJam/GameJam_Entry/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
--r:"C:/Users/Bryan Azanes/Documents/GitHub/Brackeys_GameJam/GameJam_Entry/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"C:/Users/brys4/OneDrive/Documents/Github shit/Brackeys_GameJam2025_1/GameJam_Entry/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
+-r:"C:/Users/brys4/OneDrive/Documents/Github shit/Brackeys_GameJam2025_1/GameJam_Entry/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll"
+-r:"C:/Users/brys4/OneDrive/Documents/Github shit/Brackeys_GameJam2025_1/GameJam_Entry/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
+-r:"C:/Users/brys4/OneDrive/Documents/Github shit/Brackeys_GameJam2025_1/GameJam_Entry/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll"
+-r:"C:/Users/brys4/OneDrive/Documents/Github shit/Brackeys_GameJam2025_1/GameJam_Entry/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.Unsafe.dll"
+-r:"C:/Users/brys4/OneDrive/Documents/Github shit/Brackeys_GameJam2025_1/GameJam_Entry/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
+-r:"C:/Users/brys4/OneDrive/Documents/Github shit/Brackeys_GameJam2025_1/GameJam_Entry/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/NavMeshPlus.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/NavMeshPlusEditor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/PsdPlugin.ref.dll"
@@ -400,14 +399,18 @@
 "Assets/CodeMonkey/Utils/World_Mesh.cs"
 "Assets/CodeMonkey/Utils/World_Sprite.cs"
 "Assets/door.cs"
+"Assets/DoorInteraction.cs"
 "Assets/EnemyTeleport.cs"
 "Assets/PressurePlate.cs"
 "Assets/Qmark.cs"
+"Assets/RadialFillAnimator.cs"
+"Assets/RadialFillChallenge.cs"
 "Assets/Scripts/CameraMovement.cs"
 "Assets/Scripts/FieldOfViewBehavior.cs"
 "Assets/Scripts/MenuController.cs"
 "Assets/Scripts/PlayerAim.cs"
 "Assets/Scripts/PlayerScript.cs"
+"Assets/SkillCheckManager.cs"
 -langversion:9.0
 
 /deterministic
