@@ -24,10 +24,10 @@ public class FieldOfViewBehavior : MonoBehaviour
 
     private void LateUpdate()
     {
-        int rayCount = 30;
+        int rayCount = 50;
         float angle = startingAngle;
         float angleIncrease = fov / rayCount;
-        float vDistance = 10f;
+        float vDistance = 5f;
 
         Vector3[] vertices = new Vector3[rayCount + 1 + 1];
         Vector2[] uv = new Vector2[vertices.Length];
