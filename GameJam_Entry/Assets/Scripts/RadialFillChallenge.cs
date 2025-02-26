@@ -1,9 +1,12 @@
+using System; // Required for Events
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
 public class RadialFillChallenge : MonoBehaviour
 {
+    public event Action OnSkillCheckSuccess; // Event to notify completion
+
     public Image radialImage;
     public float minAnimationSpeed = 0.5f;
     public float maxAnimationSpeed = 2f;
@@ -20,8 +23,6 @@ public class RadialFillChallenge : MonoBehaviour
     public int hitCount = 0;
     public int missCount = 0;
 
-
-
     private float fillAmount = 0f;
     private bool increasing = true;
     private float currentAnimationSpeed;
@@ -29,17 +30,15 @@ public class RadialFillChallenge : MonoBehaviour
     private float targetEnd;
     private bool targetActive = false;
     private float targetFillPercentage;
-
     private bool gameActive = false;
-    private float currentFill = 0f;
     private bool challengeComplete = false;
 
     void Start()
     {
-        targetMarker.gameObject.SetActive(false);
-        radialImage.gameObject.SetActive(false);
-        hitCounterText.gameObject.SetActive(false);
-        missCounterText.gameObject.SetActive(false);
+        targetMarker.gameObject.SetActive(true);
+        radialImage.gameObject.SetActive(true);
+        hitCounterText.gameObject.SetActive(true);
+        missCounterText.gameObject.SetActive(true);
     }
 
     void Update()
@@ -75,11 +74,6 @@ public class RadialFillChallenge : MonoBehaviour
                 DecreaseTargetSize();
                 SetTargetArea();
             }
-
-            if (hitCount >= targetHitsToWin || missCount >= maxMisses)
-            {
-                EndGame();
-            }
         }
     }
 
@@ -103,7 +97,11 @@ public class RadialFillChallenge : MonoBehaviour
     void StartGame()
     {
         gameActive = true;
-        challengeComplete = false; // Reset challengeComplete
+        challengeComplete = false;
+        hitCount = 0;
+        missCount = 0;
+        fillAmount = 0f;
+
         radialImage.gameObject.SetActive(true);
         targetMarker.gameObject.SetActive(true);
         hitCounterText.gameObject.SetActive(true);
@@ -112,10 +110,6 @@ public class RadialFillChallenge : MonoBehaviour
         targetFillPercentage = initialTargetFillPercentage;
         SetTargetArea();
         UpdateCounterTexts();
-        hitCount = 0;
-        missCount = 0;
-        UpdateCounterTexts();
-        fillAmount = 0f; //reset the fill amount.
     }
 
     void EndGame()
@@ -125,27 +119,15 @@ public class RadialFillChallenge : MonoBehaviour
         targetMarker.gameObject.SetActive(false);
         hitCounterText.gameObject.SetActive(false);
         missCounterText.gameObject.SetActive(false);
+        radialImage.fillAmount = 0;
+
         Debug.Log("Game Over! Hits: " + hitCount + ", Misses: " + missCount);
-        radialImage.fillAmount = 0; //reset the radial fill.
-    }
 
-    void SetRandomSpeed()
-    {
-        currentAnimationSpeed = Random.Range(minAnimationSpeed, maxAnimationSpeed);
-    }
-
-    void DecreaseTargetSize()
-    {
-        targetFillPercentage -= targetDecreaseAmount;
-        targetFillPercentage = Mathf.Max(targetFillPercentage, minTargetFillPercentage);
-    }
-
-    void SetTargetArea()
-    {
-        targetStart = Random.Range(0f, 1f - targetFillPercentage);
-        targetEnd = targetStart + targetFillPercentage;
-        targetActive = true;
-        UpdateTargetMarker();
+        if (hitCount >= targetHitsToWin)
+        {
+            challengeComplete = true;
+            OnSkillCheckSuccess?.Invoke(); // Notify listeners
+        }
     }
 
     void CheckTargetHit()
@@ -160,7 +142,13 @@ public class RadialFillChallenge : MonoBehaviour
             Debug.Log("Missed!");
             missCount++;
         }
+
         UpdateCounterTexts();
+
+        if (hitCount >= targetHitsToWin)
+        {
+            EndGame(); // Call EndGame when the required hits are reached
+        }
     }
 
     void UpdateCounterTexts()
@@ -173,6 +161,25 @@ public class RadialFillChallenge : MonoBehaviour
         {
             missCounterText.text = "Misses: " + missCount;
         }
+    }
+
+    void SetRandomSpeed()
+    {
+        currentAnimationSpeed = UnityEngine.Random.Range(minAnimationSpeed, maxAnimationSpeed);
+    }
+
+    void DecreaseTargetSize()
+    {
+        targetFillPercentage -= targetDecreaseAmount;
+        targetFillPercentage = Mathf.Max(targetFillPercentage, minTargetFillPercentage);
+    }
+
+    void SetTargetArea()
+    {
+        targetStart = UnityEngine.Random.Range(0f, 1f - targetFillPercentage);
+        targetEnd = targetStart + targetFillPercentage;
+        targetActive = true;
+        UpdateTargetMarker();
     }
 
     void UpdateTargetMarker()
