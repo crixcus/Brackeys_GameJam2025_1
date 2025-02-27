@@ -8,6 +8,13 @@ public class PressurePlate : MonoBehaviour
     public LayerMask playerLayer;
     private bool isActivated = false;
 
+    private AudioManager audioM;
+
+    private void Awake()
+    {
+        audioM = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+
     private void Update()
     {
         bool playerOnPlate = Physics2D.OverlapCircle(checkPosition.position, checkRadius, playerLayer);
@@ -15,12 +22,14 @@ public class PressurePlate : MonoBehaviour
         if (playerOnPlate && !isActivated)
         {
             isActivated = true;
+            audioM.PlaySFX(audioM.door);
             door.OpenDoor();
         }
         else if (!playerOnPlate && isActivated)
         {
             isActivated = true;
             door.OpenDoor();
+            Destroy(gameObject);
         }
     }
 

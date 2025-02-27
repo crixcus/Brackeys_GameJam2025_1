@@ -9,6 +9,13 @@ public class EnemyTeleport : MonoBehaviour
     private NavMeshAgent agent;
     private GameObject player;
 
+    private AudioManager audioM;
+
+    private void Awake()
+    {
+        audioM = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -45,8 +52,18 @@ public class EnemyTeleport : MonoBehaviour
             }
         }
 
-
+        
         agent.Warp(closestRoom.position);
+        if (!isPlaying(audioM.enemy_detect))
+        {
+            audioM.PlaySFX(audioM.enemy_detect);
+        }
+        
+    }
+
+    private bool isPlaying(AudioClip clip)
+    {
+        return audioM.audioSource.isPlaying && audioM.audioSource.clip == clip;
     }
 
 

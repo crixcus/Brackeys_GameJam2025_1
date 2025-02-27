@@ -16,10 +16,28 @@ public class FieldOfViewBehavior : MonoBehaviour
     {
         mesh = new Mesh();
         GetComponent<MeshFilter>().mesh = mesh;
-        fov = 50f;
+        fov = 60f;
         origin = Vector3.zero;
 
-        //GetComponent<MeshRenderer>().material.color = Color.white;
+        MeshRenderer renderer = GetComponent<MeshRenderer>();
+
+        // Ensure material is using a transparent-friendly shader
+        renderer.material = new Material(Shader.Find("Sprites/Default")); // Supports transparency
+
+        // Set color with transparency
+        Color color = renderer.material.color;
+        color.a = .7f; // 50% transparent
+        renderer.material.color = color;
+
+        // Ensure the material's rendering mode is transparent
+        renderer.material.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.SrcAlpha);
+        renderer.material.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.OneMinusSrcAlpha);
+        renderer.material.SetInt("_ZWrite", 0);
+        renderer.material.DisableKeyword("_ALPHATEST_ON");
+        renderer.material.EnableKeyword("_ALPHABLEND_ON");
+        renderer.material.DisableKeyword("_ALPHAPREMULTIPLY_ON");
+        renderer.material.renderQueue = 3000;
+
     }
 
     private void LateUpdate()

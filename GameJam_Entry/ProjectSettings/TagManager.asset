@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Door
   - door
+  - Key
+  - Audio
   layers:
   - Default
   - TransparentFX
@@ -15,8 +17,8 @@ TagManager:
   - UI
   - Enemy
   - Player
-  - 
-  - 
+  - Black
+  - Mask
   - 
   - 
   - 
@@ -42,4 +44,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Walls
+    uniqueID: 873760619
+    locked: 0
+  - name: Doors
+    uniqueID: 1022546755
+    locked: 0
+  - name: Player
+    uniqueID: 2283769641
+    locked: 0
+  - name: enemy
+    uniqueID: 1471516253
+    locked: 0
+  - name: Objects
+    uniqueID: 4234449597
     locked: 0
