@@ -9,7 +9,7 @@ public class agentMovement : MonoBehaviour
     private NavMeshAgent agent;
     private float originalSpeed;
     private SpriteRenderer spriteRenderer;
-    public GameObject GameOverPanel;
+   
 
     private AudioManager audioM;
 
@@ -62,12 +62,12 @@ public class agentMovement : MonoBehaviour
         agent.speed = originalSpeed;
     }
 
-    public void isTriggerEnter2D(Collider2D colli)
-    {
-        if (colli.CompareTag("Player"))
-        {
-            GameOverPanel.SetActive(!GameOverPanel.activeSelf);
-            Time.timeScale = 0;
-        }
-    }
+    //public void isTriggerEnter2D(Collider2D colli)
+    //{
+    //    if (colli.CompareTag("Player"))
+    //    {
+            
+            
+    //    }
+    //}
 }

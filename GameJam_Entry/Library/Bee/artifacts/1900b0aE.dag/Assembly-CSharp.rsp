@@ -417,6 +417,7 @@
 "Assets/Scripts/DoorInteraction.cs"
 "Assets/Scripts/EnemyTeleport.cs"
 "Assets/Scripts/FieldOfViewBehavior.cs"
+"Assets/Scripts/KillPlayer.cs"
 "Assets/Scripts/MainMenuManager.cs"
 "Assets/Scripts/MenuController.cs"
 "Assets/Scripts/PlayerAim.cs"
